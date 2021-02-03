@@ -13,7 +13,7 @@ def recurMS(start, end, arr):
         return
     mid = start + (end-start) // 2
     recurMS(start, mid, arr)
-    recurMS(mid, end,  arr)
+    recurMS(mid, end, arr)
     temp = []
     right = mid
     for left in range(start, mid):
